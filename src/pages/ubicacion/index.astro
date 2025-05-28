@@ -1,0 +1,28 @@
+---
+import ubicaciones from "@content/areas/ubicacion.yml";
+import AreaItem from "@components/AreaItem.astro";
+import ProyectoLayout from "@layouts/ProyectoLayout.astro";
+---
+
+<ProyectoLayout>
+  <ul>
+    {
+      ubicaciones.ubicaciones.map((area) => (
+        <li class="area-item">
+          <AreaItem
+            link="/ubicacion"
+            pk={area.id}
+            name={area.name}
+            participants={area.participants}
+          />
+        </li>
+      ))
+    }
+  </ul>
+</ProyectoLayout>
+
+<style>
+  li {
+    margin: 10px 15px;
+  }
+</style>

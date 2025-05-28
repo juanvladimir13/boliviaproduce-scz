@@ -1,0 +1,42 @@
+---
+import filtros from "@content/participantes/filtro.yml";
+import Menu from '@components/Menu.astro';
+import '../styles/global.css';
+import Filter from '@components/Filter.astro';
+
+---
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Juan Vladimir" />
+    <meta
+      name="description"
+      content="Módulo Tecnológico Productivo San Julián"
+    />
+    <meta property="og:locale" content="es_BO" />
+    <meta property="og:url" content="https://boliviaproduce-scz.web.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bolivia Produce - Fase Departamental" />
+    <meta
+      property="og:description"
+      content="Módulo Tecnológico Productivo San Julián"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:height" content="768" />
+    <meta property="og:image:width" content="611" />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/juanvladimir13/image/upload/v1747596461/bth/escudo-bth-2025.png"
+    />
+    <title>Bolivia Produce - Fase Departamental</title>
+  </head>
+  <body>
+    <Menu />
+    <Filter areas={filtros.areas} />
+    <slot />
+  </body>
+</html>

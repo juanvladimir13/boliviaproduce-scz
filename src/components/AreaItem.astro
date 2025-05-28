@@ -1,0 +1,31 @@
+---
+const {name, link, pk, participants} = Astro.props;
+---
+
+<a href={`${link}/${pk}`}>
+  <h3>{name}</h3>
+  <span>{participants}</span>
+</a>
+
+<style>
+  a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    background-color: var(--iron-50);
+    padding: 10px;
+    border: 1px solid var(--iron-950);
+  }
+
+  a > h3 {
+    font-size: var(--text-20);
+    color: var(--green-950);
+    font-weight: 500;
+  }
+
+  a > span {
+    font-size: var(--text-24);
+  }
+</style>

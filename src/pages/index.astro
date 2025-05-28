@@ -1,16 +1,25 @@
 ---
-import proyecto from '@content/participantes/proyecto.yml';
+import filtros from "@content/participantes/filtro.yml";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import Filter from "@components/Filter.astro";
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
-  </head>
-  <body>
-    <h1>{proyecto.nombre}</h1>
-  </body>
-</html>
+<BaseLayout>
+  <h1>Bolivia Produce <br />Fase Departamental</h1>
+  <h2>Módulo Tecnológico Productivo<br />San Julián</h2>
+  <Filter areas={filtros.areas} />
+</BaseLayout>
+
+<style>
+  h1 {
+    margin: 50px 0px 10px;
+    text-align: center;
+    font-size: var(--text-28);
+  }
+
+  h2 {
+    text-align: center;
+    font-size: var(--text-18);
+    color: var(--green-800);
+  }
+</style>

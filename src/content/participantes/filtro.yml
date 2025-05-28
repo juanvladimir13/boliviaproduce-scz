@@ -1,0 +1,9 @@
+areas:
+  - name: Area
+    id: 1
+    link: /area
+    image: /icons/gear.svg
+  - name: Ubicación
+    link: /ubicacion
+    id: 2
+    image: /icons/geo-alt.svg

@@ -1,0 +1,70 @@
+- id: 1
+  distrito: Ascensión de Guarayos
+  ue: Santa Teresita 3
+  proyecto: ELABORACION DE INSECTICIDA ORGÁNICO A BASE DE RUDA, OREGANO Y SÁBILA PARA EL CONTROL DE PLAGAS EN LA UNIDAD EDUCATIVA SANTA TERESITA 3
+  area: AGRÍCOLA Y PECUARIA
+  areaId: 1
+  provincia: 
+  provinciaId: 
+  ubicación: 
+  ubicaciónId: 
+- id: 2
+  distrito: Ayacucho Porongo
+  ue: Demetrio Gomez
+  proyecto: VITANIDO: TECNOLOGIA PARA DAR VIDA DESDE EL PRIMER CALOR
+  area: PROCESOS ALIMENTARIOS
+  areaId: 2
+  provincia: 
+  provinciaId: 
+  ubicación: 
+  ubicaciónId: 
+- id: 3
+  distrito: Boyuibe
+  ue: Ruben Terrazas
+  proyecto: PRODUCCIÓN DE HELADOS ARTESANALES CON CONOS DE AVENA Y MIEL DE ABEJA. “MANDARINE SANTÉ”
+  area: PROCESOS ALIMENTARIOS
+  areaId: 2
+  provincia: 
+  provinciaId: 
+  ubicación: 
+  ubicaciónId: 
+- id: 4
+  distrito: Buena Vista
+  ue: 6 de Agosto 
+  proyecto: GALLETAS DE 7 SABORES 
+  area: PROCESOS ALIMENTARIOS
+  areaId: 2
+  provincia: 
+  provinciaId: 
+  ubicación: 
+  ubicaciónId: 
+- id: 5
+  distrito: Cabezas
+  ue: Yateirenda
+  proyecto: LA MIEL DE NUESTROS ABUELOS: PRODUCCIÓN DE COLMENAS NATIVAS EN YATEIRENDA
+  area: PROCESOS ALIMENTARIOS
+  areaId: 2
+  provincia: 
+  provinciaId: 
+  ubicación: 
+  ubicaciónId: 
+- id: 6
+  distrito: Camiri
+  ue: Modulo Tecnologico Productivo BTH Sararenda
+  proyecto: DETECTOR DE FUGA DE CORRIENTE EN BOBINAS DE MOTORIZADOS 
+  area: PROCESOS DE FABRICACIÓN DE EQUIPOS Y MAQUINARIA
+  areaId: 3
+  provincia: 
+  provinciaId: 
+  ubicación: 
+  ubicaciónId: 
+- id: 7
+  distrito: Charagua
+  ue: 2 de Abril
+  proyecto: “ELABORACIÓN DE UN BROWNIE (PASTEL) DE CAMOTE COMO UNA ALTERNATIVA NUTRICIONAL Y SALUDABLE EN EL MUNICIPIO DE CHARAGUA 2025”
+  area: PROCESOS ALIMENTARIOS
+  areaId: 2
+  provincia: 
+  provinciaId: 
+  ubicación: 
+  ubicaciónId:

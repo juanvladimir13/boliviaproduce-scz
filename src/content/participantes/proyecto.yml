@@ -1,1 +1,413 @@
-nombre: Juan Vladimir
+proyectos:
+  - id: '1'
+    distrito: Ascensión de Guarayos
+    ubicacionId: '1'
+    ubicacion: Sistemas Informáticos / Planta Alta
+    ue: Santa Teresita 3
+    proyecto: 'ELABORACION DE INSECTICIDA ORGÁNICO A BASE DE RUDA, OREGANO Y SÁBILA PARA EL CONTROL DE PLAGAS EN LA UNIDAD EDUCATIVA SANTA TERESITA 3'
+    area: 'AGRÍCOLA Y PECUARIA'
+    areaId: '1'
+  - id: '2'
+    distrito: Ayacucho Porongo
+    ubicacionId: '1'
+    ubicacion: Sistemas Informáticos / Planta Alta
+    ue: Demetrio Gomez
+    proyecto: 'VITANIDO: TECNOLOGIA PARA DAR VIDA DESDE EL PRIMER CALOR'
+    area: PROCESOS ALIMENTARIOS
+    areaId: '2'
+  - id: '3'
+    distrito: Boyuibe
+    ubicacionId: '1'
+    ubicacion: Sistemas Informáticos / Planta Alta
+    ue: Ruben Terrazas
+    proyecto: >-
+      PRODUCCIÓN DE HELADOS ARTESANALES CON CONOS DE AVENA Y MIEL DE ABEJA.
+      "MANDARINE SANTÉ"
+    area: PROCESOS ALIMENTARIOS
+    areaId: '2'
+  - id: '4'
+    distrito: Buena Vista
+    ubicacionId: '1'
+    ubicacion: Sistemas Informáticos / Planta Alta
+    ue: '6 de Agosto'
+    proyecto: 'GALLETAS DE 7 SABORES'
+    area: PROCESOS ALIMENTARIOS
+    areaId: '2'
+  - id: '5'
+    distrito: Cabezas
+    ubicacionId: '1'
+    ubicacion: Sistemas Informáticos / Planta Alta
+    ue: Yateirenda
+    proyecto: >-
+      LA MIEL DE NUESTROS ABUELOS: PRODUCCIÓN DE COLMENAS NATIVAS EN
+      YATEIRENDA
+    area: PROCESOS ALIMENTARIOS
+    areaId: '2'
+  - id: '6'
+    distrito: Camiri
+    ubicacionId: '1'
+    ubicacion: Sistemas Informáticos / Planta Alta
+    ue: Modulo Tecnologico Productivo BTH Sararenda
+    proyecto: 'DETECTOR DE FUGA DE CORRIENTE EN BOBINAS DE MOTORIZADOS '
+    area: PROCESOS DE FABRICACIÓN DE EQUIPOS Y MAQUINARIA
+    areaId: '3'
+  - id: '7'
+    distrito: Charagua
+    ubicacionId: '1'
+    ubicacion: Sistemas Informáticos / Planta Alta
+    ue: 2 de Abril
+    proyecto: >-
+      ELABORACIÓN DE UN BROWNIE (PASTEL) DE CAMOTE COMO UNA ALTERNATIVA
+      NUTRICIONAL Y SALUDABLE EN EL MUNICIPIO DE CHARAGUA 2025
+    area: PROCESOS ALIMENTARIOS
+    areaId: '2'
+  - id: '8'
+    distrito: Comarapa
+    ubicacionId: '2'
+    ubicacion: Sistemas Informáticos / Planta Baja
+    ue: 'Antonio Claver '
+    proyecto: SUPLEMENTO VITAMINICO DE ESPINACA
+    area: PROCESOS ALIMENTARIOS
+    areaId: '2'
+  - id: '9'
+    distrito: Concepcion
+    ubicacionId: '2'
+    ubicacion: Sistemas Informáticos / Planta Baja
+    ue: Guadalupe Fe Y Alegria II
+    proyecto: 'TAPERA DEL IÑUMA CAFETERIA - MOSEO'
+    area: PROCESOS INDUSTRIALES
+    areaId: '5'
+  - id: '10'
+    distrito: Cuatro Cañadas
+    ubicacionId: '2'
+    ubicacion: Sistemas Informáticos / Planta Baja
+    ue: Nacional Cuatro Cañadas
+    proyecto: EMPRENDIMIENTO PRODUCTIVO-ACTIVIDAD COMERCIAL "DETALLITOS Y ALGO MÁS"
+    area: AUTOMATIZACIÓN DE PROCESOS
+    areaId: '4'
+  - id: '11'
+    distrito: Cuevo
+    ubicacionId: '2'
+    ubicacion: Sistemas Informáticos / Planta Baja
+    ue: Santa Clara
+    proyecto: BANGUARDIA ANCESTRAL
+    area: AUTOMATIZACIÓN DE PROCESOS
+    areaId: '4'
+  - id: '12'
+    distrito: El Torno
+    ubicacionId: '2'
+    ubicacion: Sistemas Informáticos / Planta Baja
+    ue: 2 de Marzo
+    proyecto: >-
+      PRODUCCION Y COMERCIALIZACION DE SHAMPOO Y JABONCILLO ARTESANAL DE
+      SABILA (ALOE VERA)
+    area: PROCESOS INDUSTRIALES
+    areaId: '5'
+  - id: '13'
+    distrito: Gral. Saavedra
+    ubicacionId: '2'
+    ubicacion: Sistemas Informáticos / Planta Baja
+    ue: Nueva Esperanza
+    proyecto: 'PANADERIA DIVINO NIÑO'
+    area: PROCESOS ALIMENTARIOS
+    areaId: '2'
+  - id: '14'
+    distrito: Gutierrez
+    ubicacionId: '3'
+    ubicacion: Gastronomía
+    ue: Guirakota
+    proyecto: >-
+      ELABORACION DE FARMACOS FITOPERAPEUTICOS CON INSUMOS NATIVOS EN LA
+      ETNOVETERINARIA 
+    area: PROCESOS INDUSTRIALES
+    areaId: '5'
+  - id: '15'
+    distrito: La Guardia
+    ubicacionId: '3'
+    ubicacion: Gastronomía
+    ue: Marcelo Quiroga Santa Cruz
+    proyecto: 'ELABORACION Y PRODUCCIÓN DE HELADOS ARTESANALES DE PEPINO REMOLACHA LIMON CON CHILE'
+    area: 'PROCESOS ALIMENTARIOS'
+    areaId: '2'
+  - id: '16'
+    distrito: Lagunillas
+    ubicacionId: '3'
+    ubicacion: Gastronomía
+    ue: 21 de Mayo
+    proyecto: >-
+      ELABORACIÓN PRODUCTIVA DE LÁCTEOS MEDIANTE LA TRANSFORMACIÓN DE LA
+      LECHE BENEFICIANDO AL DESARROLLO COGNITIVO Y FÍSICO DE LOS NIÑOS DE LAGUNILLAS
+    area: 'PROCESOS ALIMENTARIOS'
+    areaId: '2'
+  - id: '17'
+    distrito: Mairana
+    ubicacionId: '3'
+    ubicacion: Gastronomía
+    ue: Presidente Barrientos Ortuño 1
+    proyecto: >-
+      EXTRACCIÓN DE LA CAFEINA DEL GRANO DE CAFÉ PRODUCIDA EN EL MUNICIPIO DE
+      MAIRANA PARA LA ELABORACIÓN DE GOMITAS ENERGETICAS DIRIGIDA A
+      ESTUDIANTES TRABAJADORES Y DEPORTISTAS
+    area: 'PROCESOS ALIMENTARIOS'
+    areaId: '2'
+  - id: '18'
+    distrito: Mineros
+    ubicacionId: '3'
+    ubicacion: Gastronomía
+    ue: Servidores del Mundo
+    proyecto: 'INSECTICIDA NATURAL "PALTA PROTECT"'
+    area: AGRÍCOLA Y PECUARIA
+    areaId: '1'
+  - id: '19'
+    distrito: Montero
+    ubicacionId: '3'
+    ubicacion: Gastronomía
+    ue: Rene Moreno - Montero
+    proyecto: 'LIBROS LÚDICOS DIDÁCTICOS DINÁMICOS Y EDUCATIVOS EN LA LENGUA EXTRANJERA INGLÉS - "KIDDO EXPLORERS"'
+    area: 'AUTOMATIZACIÓN DE PROCESOS'
+    areaId: '4'
+  - id: '20'
+    distrito: Okinawa
+    ubicacionId: '3'
+    ubicacion: Gastronomía
+    ue: Nueva Esperanza II
+    proyecto: >-
+      PRODUCCIÓN Y COMERCIALIZACIÓN DE CERDOS EN LA UNIDAD EDUCATIVA NUEVA
+      ESPERANZA II (GRANJA EL DE REPENTE)
+    area: AGRÍCOLA Y PECUARIA
+    areaId: '1'
+  - id: '21'
+    distrito: Pailon
+    ubicacionId: '3'
+    ubicacion: Gastronomía
+    ue: Emilio Sulzer Salinas
+    proyecto: PRODUCCION Y COMERCIOALIZACION QUESO DE CABRA
+    area: AGRÍCOLA Y PECUARIA
+    areaId: '1'
+  - id: '22'
+    distrito: Pampa Grande
+    ubicacionId: '3'
+    ubicacion: Gastronomía
+    ue: Delfin Arteaga Taborga
+    proyecto: >-
+      DISEÑO Y APLICACION DE RECURSOS DIGITALES PARA EL FORTALECIMIENTO DE PEQUEÑOS MEDIANOS Y GRANDES EMPRENDIMIENTOS MUNICIPIO PAMPAGRANDE "MATARAL CONECTA"
+    area: 'AUTOMATIZACIÓN DE PROCESOS'
+    areaId: '4'
+  - id: '23'
+    distrito: Plan 3000
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: Adventista Plan Tres Mil
+    proyecto: >-
+      BITFLES NEGOCIOS RAPIDOS Y RENTABLES CONTROLANDO TUS FINANZAS DESDE EL PRIMER DIA 
+    area: AUTOMATIZACIÓN DE PROCESOS
+    areaId: '4'
+  - id: '24'
+    distrito: Portachuelo
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: 'Àngel Marìa Limpias Secundaria '
+    proyecto: >-
+      PLANTA DE PIRÓLISIS PARA LA REALIZACIÓN DE COMBUSTIBLE EN BASE A PLASTICOS REUTILIZADOS APOYANDO LA ECONOMÍA EL CUIDADO Y PRESERVACIÓN DEL MEDIO AMBIENTE
+    area: 'PROCESOS INDUSTRIALES'
+    areaId: '5'
+  - id: '25'
+    distrito: Puerto Quijarro
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: Fenelon Suarez Roman
+    proyecto: >-
+      PROTOTIPO DE CULTIVO HIDROPÓNICO AUTOMATIZADO PARA LA INNOVACION DE TECNOLOGIA EN LA UNIDAD EDUCATIVA FENELON SUAREZ ROMAN
+    area: AUTOMATIZACIÓN DE PROCESOS
+    areaId: '4'
+  - id: '26'
+    distrito: Puerto Suarez
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: Madre Clara Ricci
+    proyecto: 'FACTIBILIDAD DE LA EVALUACIÓN ECONÓMICA FINANCIERA PARA LA PRODUCCIÓN Y COMERCIALIZACIÓN DE HELADOS "H&A" DE FRUTAS NATURALES EN EL MUNICIPIO DE PUERTO SUÁREZ'
+    area: 'PROCESOS INDUSTRIALES'
+    areaId: '5'
+  - id: '27'
+    distrito: Quirusillas
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: Nacional Quirusillas
+    proyecto: >-
+      ELABORACION DE ALOE VIDA PARA MEJORAR TU SALUD DESDE EL MUNICIPIO DE QUIRUSILLAS
+    area: PROCESOS ALIMENTARIOS
+    areaId: '2'
+  - id: '28'
+    distrito: Samaipata
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: Gral. Agustin Saavedra II
+    proyecto: >-
+      ELABORACIÓN Y COMERCIALIZACIÓN DE CHORIZOS VEGANOS ARTESANALES A BASE DE SOYA TEXTURIZADA, LENTEJA, AVENA, ARROZ INTEGRAL, ALMIDÓN DE YUCA Y PIMENTÓN ROJO
+    area: 'PROCESOS ALIMENTARIOS'
+    areaId: '2'
+  - id: '29'
+    distrito: San Antonio Lomerio
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: El Puquio Cristo Rey
+    proyecto: >-
+      PRODUCCIÓN Y COMERCIALIZACIÓN DE CARNE DE POLLO DE ENGORDE EN LA COMUNIDAD DE MONTERITO
+    area: AGRÍCOLA Y PECUARIA
+    areaId: '1'
+  - id: '30'
+    distrito: San Carlos
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: Santa Fe Km 0
+    proyecto: >-
+      ELABORACIÓN Y COMERCIALIZACIÓN DE GALLETAS DE HARINA DE PLÁTANO COMO UNA ALTERNATIVA SALUDABLE Y SOSTENIBLE EN LA POBLACIÓN DE SANTA FE.
+    area: PROCESOS ALIMENTARIOS
+    areaId: '2'
+  - id: '31'
+    distrito: San Ignacio
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: Don Bosco Miguel Areiger
+    proyecto: ELABORACIÓN Y COMERCIALIZACIÓN DE MINI DONITAS
+    area: PROCESOS ALIMENTARIOS
+    areaId: '2'
+  - id: '32'
+    distrito: San Javier
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: San Francisco de Asis C
+    proyecto: TALLER DE PRENDAS FEMENINAS CON BORDADOS CHIQUITANO MARABELI
+    area: PROCESOS INDUSTRIALES
+    areaId: '5'
+  - id: '33'
+    distrito: San Jose de Ahiquitos
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: Oscar Unzaga de la Vega
+    proyecto: >-
+      DISEÑO Y DESARROLLO DE UN BASTÓN INTELIGENTE PARA PERSONAS CON
+      DISCAPACIDAD VISUAL 
+    area: AUTOMATIZACIÓN DE PROCESOS
+    areaId: '4'
+  - id: '34'
+    distrito: San Juan de Yapacani
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: Sagrado Corazon 4
+    proyecto: 'ELABORACION DE CREMA FACIAL DE ARROZ '
+    area: PROCESOS INDUSTRIALES
+    areaId: '5'
+  - id: '35'
+    distrito: San Julian
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: Enrique De Osso III
+    proyecto: >-
+      KAVISOY TRANFORMANDO EL GRANO DE ORO EN PRODUCTOS  SALUDABLES PARA UNA
+      NUEVA BOLIVIA 
+    area: PROCESOS ALIMENTARIOS
+    areaId: '2'
+  - id: '36'
+    distrito: San Matias
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: Emilia Rodat II
+    proyecto: 'CARGADOR DE BATERÍA CON ENERGÍA SOLAR '
+    area: PROCESOS DE FABRICACIÓN DE EQUIPOS Y MAQUINARIA
+    areaId: '3'
+  - id: '37'
+    distrito: San Miguel
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: San Pablo A
+    proyecto: >-
+      FORTALECEMOS NUESTRAS DESTREZAS Y HABILIDADES MEDIANTE LA ELABORACIÓN DE
+      UNA SILLA PLANCHADORA
+    area: PROCESOS DE DESARROLLO E INNOVACIÓN IMPLEMENTADOS EN VEHÍCULOS
+    areaId: '7'
+  - id: '38'
+    distrito: San Rafael
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: Nacional Godofredo Trenker
+    proyecto: >-
+      INFRAESTRUCTURA Y CRIANZA DE PRODUCCION DE HUEVOS DE CODORNIZ COMO
+      APORTE AL DESARROLLO ECONOMICO EN EL MUNICIPIO DE SAN RAFAEL
+    area: AGRÍCOLA Y PECUARIA
+    areaId: '1'
+  - id: '39'
+    distrito: Santa Cruz I
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: Colegio Alexander Von Humboldt
+    proyecto: >-
+      INCENDIOS FORESTALES Y SISTEMA DE DIAGNÓSTICO DEL SUELO EN ZONAS
+      AFECTADAS DEL DEPARTAMENTO DE SANTA CRUZ
+    area: GESTIÓN SOSTENIBLE DE LOS RECURSOS HÍDRICOS Y RIEGO
+    areaId: '6'
+  - id: '40'
+    distrito: Santa Cruz II
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: 'Corpus Christi I '
+    proyecto: 'ELABORACIÓN E INNOVACIÓN DE SALSAS DE ACEROLA Y TOTAI "ACETAI"'
+    area: PROCESOS ALIMENTARIOS
+    areaId: '2'
+  - id: '41'
+    distrito: Santa Cruz III
+    ubicacionId: '4'
+    ubicacion: Textiles y Confecciones
+    ue: Santa Cruz de la Sierra E
+    proyecto: VANDIDOSA EN CASA ART AND BRUSH
+    area: GESTIÓN SOSTENIBLE DE LOS RECURSOS HÍDRICOS Y RIEGO
+    areaId: '6'
+  - id: '42'
+    distrito: Santa Rosa
+    ubicacionId: '5'
+    ubicacion: Construcción Civil
+    ue: Republica Argentina II
+    proyecto: >-
+      ELABORACIÓN Y COMERCIALIZACIÓN SALSA AGRIDULCE DE TAMARINDO COMO
+      APROVECHAMIENTO DE LA POTENCIALIDAD DE MI COMUNIDAD DE SANTA ROSA DEL
+      SARA EN BENEFICIO DE LA MATRIZ PRODUCTIVA
+    area: PROCESOS ALIMENTARIOS
+    areaId: '2'
+  - id: '43'
+    distrito: Trigal
+    ubicacionId: '5'
+    ubicacion: Construcción Civil
+    ue: Jose Aguirre Acha
+    proyecto: RECUPEREMOS EL SITIAL DE LAS ROSCAS DE EL TRIGAL
+    area: PROCESOS ALIMENTARIOS
+    areaId: '2'
+  - id: '44'
+    distrito: Vallegrande
+    ubicacionId: '5'
+    ubicacion: Construcción Civil
+    ue: Modulo Tecnologico Productivo Julio Lairana Sandoval
+    proyecto: ELABORACIÓN Y COMERCIALIZACIÓN DE ADOQUINES TIPO "I"
+    area: PROCESOS INDUSTRIALES
+    areaId: '5'
+  - id: '45'
+    distrito: Warnes
+    ubicacionId: '5'
+    ubicacion: Construcción Civil
+    ue: 'Angelmira Montenegro de Dalence '
+    proyecto: >-
+      AUTOMATIZACION DE UN PROTOTIPO DE UNA CASA CON ARDUINO UNO (DOMOTICA) EN
+      LA UNIDAD EDUCATIVA "ANGELMIRA MONTENEGRO DE DALENCE" PARA DEMOSTRAR LA
+      IMPLEMENTACION DE LA TECNOLOGIA EN EL DIARIO VIVIR
+    area: AUTOMATIZACIÓN DE PROCESOS
+    areaId: '4'
+  - id: '46'
+    distrito: Yapacani
+    ubicacionId: '5'
+    ubicacion: Construcción Civil
+    ue: Santa Cruz de la Sierra
+    proyecto: >-
+      SISTEMA DE RIEGO AUTOMÁTICO EFICIENTE QUE PERMITA OPTIMIZAR EL USO DEL
+      AGUA EN CULTIVO DE ARROZ CON ARDUINO Y MONITOREADO CON APLICACIÓN
+      ANDROID PARA LA COMUNIDAD PUERTO ABAROA EN LA GESTIÓN 2025
+    area: AUTOMATIZACIÓN DE PROCESOS
+    areaId: '4'

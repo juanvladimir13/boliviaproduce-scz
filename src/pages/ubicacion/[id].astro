@@ -1,0 +1,66 @@
+---
+import Proyecto from "@components/Proyecto.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+import proyectosData from "@content/participantes/proyecto.yml";
+import ubicacionData from "@content/areas/ubicacion.yml";
+
+
+interface Props {
+  proyectos: [];
+}
+
+export async function getStaticPaths() {
+  const agrupadosPorUbicacion = proyectosData.proyectos.reduce((acc, proyecto) => {
+    const { ubicacionId } = proyecto;
+    if (!acc[ubicacionId]) {
+      acc[ubicacionId] = [];
+    }
+    acc[ubicacionId].push(proyecto);
+    return acc;
+  }, {});
+
+  return Object.entries(agrupadosPorUbicacion).map(([ubicacionId, proyectos]) => ({
+    params: { id: parseInt(ubicacionId) },
+    props: { proyectos },
+  }));
+}
+
+const { id } = Astro.params;
+const { proyectos } = Astro.props;
+const ubicacionName = ubicacionData.ubicaciones.find((ubicacion)=> ubicacion.id == id);
+---
+
+<BaseLayout>
+  <h3>{ubicacionName.name}</h3>
+  <ul>
+    {
+      proyectos.map(({ distrito, ue, proyecto, area, ubicacion }) => (
+        <li>
+          <Proyecto
+            distrito={distrito}
+            ue={ue}
+            proyecto={proyecto}
+            area={area}
+            ubicacion={ubicacion}
+          />
+        </li>
+      ))
+    }
+  </ul>
+</BaseLayout>
+
+<style>
+  h3 {
+    margin: 15px 0px;
+    font-size: var(--text-20);
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--green-900);
+  }
+
+  li {
+    margin: 15px 10px;
+  }
+</style>

@@ -1,0 +1,36 @@
+---
+import AreaCard from "./AreaCard.astro";
+
+const { areas } = Astro.props;
+---
+
+<p>Ver proyectos por</p>
+<ul>
+  {
+    areas.map(({ name, image, link }) => (
+      <li>
+        <AreaCard name={name} image={image} link={link} />
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  p {
+    margin: 25px 0px 15px;
+    font-size: var(--text-20);
+    font-weight: 700;
+    text-align: center;
+    color: var(--iron-700);
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+</style>

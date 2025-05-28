@@ -1,0 +1,67 @@
+---
+const { distrito, ue, proyecto, area, ubicacion } = Astro.props;
+---
+
+<div class="proyecto">
+  <img src="/icons/globe-americas.svg" alt="" srcset="" />
+  <span class="text-distrito">{distrito}</span>
+
+  <img src="/icons/house-door.svg" alt="" srcset="" />
+  <span class="text-ue">{ue}</span>
+
+  <img src="/icons/files.svg" alt="" />
+  <span class="text-proyecto">{proyecto}</span>
+
+  <img src="/icons/tags.svg" alt="" />
+  <span class="text-area">{area}</span>
+
+  <img src="/icons/geo-alt.svg" alt="" />
+  <span class="text-ubicacion">{ubicacion}</span>
+</div>
+
+<style>
+  .proyecto {
+    display: grid;
+    grid-template-columns: 32px 1fr;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+
+    background-color: var(--iron-50);
+    border-radius: 8px;
+    padding: 10px;
+  }
+
+  .proyecto > img {
+    max-width: 35px;
+    min-width: 24px;
+  }
+
+  .text-distrito {
+    font-size: var(--text-20);
+    font-weight: 500;
+  }
+
+  .text-ue {
+    font-size: var(--text-18);
+  }
+
+  .text-proyecto {
+    font-size: var(--text-base);
+    font-style: italic;
+  }
+
+  .text-area {
+    font-size: var(--text-18);
+    max-width: fit-content;
+    background-color: var(--green-700);
+    padding: 3px 7px;
+    border-radius: 5px;
+    color: var(--green-50);
+  }
+
+  .text-ubicacion {
+    font-size: var(--text-18);
+  }
+</style>
