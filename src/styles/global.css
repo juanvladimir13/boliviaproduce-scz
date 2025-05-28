@@ -102,6 +102,14 @@ span {
   font-weight: 500;
 }
 
+.title {
+  margin: 25px 0px 15px;
+  font-size: var(--text-20);
+  font-weight: 700;
+  text-align: center;
+  color: var(--iron-700);
+}
+
 .container-fluid {
   margin-top: 15px;
   margin-bottom: 15px;

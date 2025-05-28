@@ -1,12 +1,13 @@
 ---
-import Menu from '@components/Menu.astro';
-import '../styles/global.css';
-
+import Menu from "@components/Menu.astro";
+import "../styles/global.css";
+import { ViewTransitions } from 'astro:transitions';
 ---
+
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow" />
     <meta name="author" content="Juan Vladimir" />
@@ -23,12 +24,13 @@ import '../styles/global.css';
       content="Módulo Tecnológico Productivo San Julián"
     />
     <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:height" content="768" />
-    <meta property="og:image:width" content="611" />
+    <meta property="og:image:height" content="377" />
+    <meta property="og:image:width" content="300" />
     <meta
       property="og:image"
-      content="https://res.cloudinary.com/juanvladimir13/image/upload/v1747596461/bth/escudo-bth-2025.png"
+      content="https://res.cloudinary.com/juanvladimir13/image/upload/v1748434072/bth/escudo-2025-sm.png"
     />
+    <ViewTransitions />
     <title>Bolivia Produce - Fase Departamental</title>
   </head>
   <body>

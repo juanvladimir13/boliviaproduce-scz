@@ -6,20 +6,77 @@ import Filter from "@components/Filter.astro";
 
 <BaseLayout>
   <h1>Bolivia Produce <br />Fase Departamental</h1>
+  <h3>SEDE</h3>
   <h2>Módulo Tecnológico Productivo<br />San Julián</h2>
+  <div class="logo">
+    <img src="/img/escudo-bth.png" alt="" srcset="" />
+  </div>
+  <p>
+    Bienvenido, aqui encontrarás información sobre los participantes de la
+    fase departamental del concurso <strong>Bolivia Produce</strong>.
+  </p>
+
   <Filter areas={filtros.areas} />
+
+  <div class="btn-download">
+    <a
+      href="/recursos/bolivia-produce-2025.jpg"
+      download="bolivia-produce-2025.jpg"
+      target="_blank">Descargar mapa</a
+    >
+  </div>
 </BaseLayout>
 
 <style>
   h1 {
-    margin: 50px 0px 10px;
+    margin: 40px 0px 5px;
     text-align: center;
     font-size: var(--text-28);
+  }
+
+  h3 {
+    text-align: center;
+    font-size: var(--text-20);
+    color: var(--green-800);
   }
 
   h2 {
     text-align: center;
     font-size: var(--text-18);
     color: var(--green-800);
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  .logo img {
+    max-width: 120px;
+    height: auto;
+  }
+  p {
+    text-align: center;
+    font-size: var(--text-18);
+    color: var(--green-700);
+    font-style: italic;
+    margin-bottom: 20px;
+    padding: 8px 20px 0px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--green-950);
+    font-weight: 700;
+    font-size: var(--text-18);
+    background-color: var(--green-200);
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+
+  .btn-download {
+    text-align: center;
+    margin-bottom: 50px;
   }
 </style>

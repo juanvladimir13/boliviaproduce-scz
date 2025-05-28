@@ -3,5 +3,56 @@ import BaseLayout from "@layouts/BaseLayout.astro";
 ---
 
 <BaseLayout>
-  <p>En construccion...</p>
+  <h3 class="title">Actividades</h3>
+
+  <div class="actividades">
+    <span>07:00 am</span>
+    <p>Registro de participantes (estudiantes y docentes)</p>
+
+    <span>09:00 am</span>
+    <p>Espacio cultural</p>
+
+    <span>10:00 am</span>
+    <p>Acto de inauguración</p>
+    
+    <span></span>
+    <p>Desconcentración y visitas de stand en el área de INNOVACIÓN, EMPRENDIMIENTO E INVESTIGACIÓN</p>
+
+    <span>03:00 pm</span>
+    <p>Concentración de estudiantes</p>
+
+    <span></span>
+    <p>Entrega de reconocimientos a jurados</p>
+    
+    <span></span>
+    <p>Entrega de reconocimientos a Unidades Educativas participantes de la feria</p>
+    
+    <span></span>
+    <p>Entrega de premios a los ganadores del área de INNOVACIÓN, EMPRENDIMIENTO E INVESTIGACIÓN</p>
+  </div>
 </BaseLayout>
+
+<style>
+  .actividades {
+    display: grid;
+    grid-template-columns: 75px 2fr;
+    padding: 0px 15px;
+    column-gap: 8px;
+    row-gap: 8px;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--text-18);
+  }
+
+  .actividades span {
+    font-weight: bold;
+    color: var(--iron-800);
+  }
+
+  .actividades p {
+    margin: 0px;
+    padding: 0px 0px 1px 8px;
+    color: var(--green-950);
+    border-bottom: 1px solid var(--iron-500);
+  }
+</style>
