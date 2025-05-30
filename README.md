@@ -1,47 +1,45 @@
-# Astro Starter Kit: Minimal
+# Bolivia Produce SCZ
 
-```sh
-bun create astro@latest -- --template minimal
+Codigo fuente de la web https://boliviaproduce-scz.web.app/
+
+## Guía de Instalación y Ejecución de un Proyecto con Bun.sh 🚀
+
+Sigue estos pasos para configurar y ejecutar un proyecto basado en Bun.sh.
+
+### 1. 📦 Instalar Bun.sh
+
+#### En sistemas Windows:
+Abre tu terminal de PowerShell y ejecuta el siguiente comando:
+
+```bash
+powershell -c "irm bun.sh/install.ps1|iex"
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+Si tienes dificultades para instalar, sigue las siguientes instrucciones en <a href="https://bun.sh/docs/installation#windows" target="_blank">https://bun.sh/docs/installation#windows</a>
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-## 🚀 Project Structure
+### 2. 📥 Descargar el Repositorio desde GitHub como ZIP
 
-Inside of your Astro project, you'll see the following folders and files:
+- Haz clic en el botón verde **"Code"**.
+- Selecciona **"Download ZIP"**.
+- Extrae el archivo ZIP en una carpeta de tu elección.
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+### 3. 🧰 Instalar Dependencias
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- Abre la terminal.
+- Navega a la carpeta del proyecto descomprimido. Ejemplo: `cd ~/Descargas/mi-proyecto`.
+- Ejecuta: `bun install`.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### 4. 🚀 Ejecutar el Proyecto
 
-Any static assets, like images, can be placed in the `public/` directory.
+- Ejecuta el comando: `bun run dev`.
 
-## 🧞 Commands
+### 5. 🌐 Abrir el Proyecto en el Navegador
 
-All commands are run from the root of the project, from a terminal:
+- Abre tu navegador preferido.
+- Ve a la dirección: <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> .
+- Recomendado: Google Chrome para mejor compatibilidad.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
+---
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+¡Listo! Ahora deberías tener el proyecto funcionando correctamente
