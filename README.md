@@ -27,7 +27,7 @@ Si tienes dificultades para instalar, sigue las siguientes instrucciones en <a h
 ### 3. 🧰 Instalar Dependencias
 
 - Abre la terminal
-- Navega a la carpeta del proyecto descomprimido. Ejemplo: `cd Descargas/mi-boliviaproduce-scz-main`
+- Navega a la carpeta del proyecto descomprimido. Ejemplo: `cd Descargas/boliviaproduce-scz-main`
 - Ejecuta: `bun install`
 
 ### 4. 🚀 Ejecutar el Proyecto
