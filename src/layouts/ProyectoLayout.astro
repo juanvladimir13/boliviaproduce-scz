@@ -1,9 +1,9 @@
 ---
-import filtros from "@content/participantes/filtro.yml";
-import Menu from '@components/Menu.astro';
 import '../styles/global.css';
+import Menu from '@components/Menu.astro';
 import Filter from '@components/Filter.astro';
-import { ViewTransitions } from 'astro:transitions';
+import { ClientRouter } from "astro:transitions";
+import filtros from "@content/participantes/filtro.yml";
 ---
 
 <html lang="es">
@@ -32,7 +32,7 @@ import { ViewTransitions } from 'astro:transitions';
       property="og:image"
       content="https://res.cloudinary.com/juanvladimir13/image/upload/v1748434072/bth/escudo-2025-sm.png"
     />
-    <ViewTransitions />
+    <ClientRouter />
     <title>Bolivia Produce - Fase Departamental</title>
   </head>
   <body>
