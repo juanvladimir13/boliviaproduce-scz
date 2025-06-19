@@ -1,5 +1,7 @@
 ---
 import areas from "@content/areas/area.yml";
+import type { IAreaItem } from "@datatypes/datatypes";
+
 import AreaItem from "@components/AreaItem.astro";
 import ProyectoLayout from "@layouts/ProyectoLayout.astro";
 ---
@@ -7,11 +9,11 @@ import ProyectoLayout from "@layouts/ProyectoLayout.astro";
 <ProyectoLayout>
   <ul>
     {
-      areas.areas.map((area) => (
+      areas.areas.map((area: IAreaItem) => (
         <li class="area-item">
           <AreaItem
             link="/area"
-            pk={area.id}
+            pk={area.pk}
             name={area.name}
             participants={area.participants}
           />

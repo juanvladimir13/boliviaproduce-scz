@@ -1,5 +1,10 @@
 ---
-const {name, link, pk, participants} = Astro.props;
+import type { IAreaItem } from '@datatypes/datatypes';
+
+interface Props extends IAreaItem {
+}
+
+const { name, link, pk, participants } = Astro.props;
 ---
 
 <a href={`${link}/${pk}`}>

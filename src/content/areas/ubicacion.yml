@@ -1,16 +1,16 @@
 ubicaciones:
   - name: "Sistemas Informáticos / Planta Alta"
-    id: 1
+    pk: 1
     participants: 7
   - name: "Sistemas Informáticos / Planta Baja"
-    id: 2
+    pk: 2
     participants: 6
   - name: "Gastronomía"
-    id: 3
+    pk: 3
     participants: 9
   - name: "Textiles y Confecciones"
-    id: 4
+    pk: 4
     participants: 19
   - name: "Construcción Civil"
-    id: 5
+    pk: 5
     participants: 5

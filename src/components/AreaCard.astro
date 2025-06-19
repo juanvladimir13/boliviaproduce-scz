@@ -1,10 +1,15 @@
 ---
-const {name, image, link} = Astro.props;
+import type { IAreaCard } from '@types/interfaces';
+
+interface Props extends IAreaCard{
+}
+
+const { name, image, link } = Astro.props;
 ---
 
 <a href={link}>
   <div class="icon-area">
-    <img src={image} alt={name} srcset="">
+    <img src={image} alt={name} srcset="" />
   </div>
   <h3>{name}</h3>
 </a>

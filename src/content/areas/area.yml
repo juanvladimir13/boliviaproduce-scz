@@ -1,22 +1,22 @@
 areas:
   - name: Agrícola y pecuaria
-    id: 1
+    pk: 1
     participants: 6
   - name: Procesos alimentarios
-    id: 2
+    pk: 2
     participants: 18
   - name: Procesos de fabricación de equipos y maquinaria
-    id: 3
+    pk: 3
     participants: 2
   - name: Automatización de procesos
-    id: 4
+    pk: 4
     participants: 9
   - name: Procesos industriales
-    id: 5
+    pk: 5
     participants: 8
   - name: Gestión sostenible de los recursos hídricos y riego
-    id: 6
+    pk: 6
     participants: 2
   - name: Procesos de desarrollo e innovación implementados en vehículos
-    id: 7
+    pk: 7
     participants: 1

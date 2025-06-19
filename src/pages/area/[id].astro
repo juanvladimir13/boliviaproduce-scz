@@ -1,24 +1,27 @@
 ---
-import Proyecto from "@components/Proyecto.astro";
-import BaseLayout from "@layouts/BaseLayout.astro";
-
 import proyectosData from "@content/participantes/project.yml";
 import areaData from "@content/areas/area.yml";
+import type { IAreaItem, IProyecto } from "@datatypes/datatypes";
 
+import BaseLayout from "@layouts/BaseLayout.astro";
+import Proyecto from "@components/Proyecto.astro";
 
 interface Props {
-  proyectos: [];
+  proyectos: IProyecto[];
 }
 
 export async function getStaticPaths() {
-  const agrupadosPorArea = proyectosData.proyectos.reduce((acc, proyecto) => {
-    const { areaId } = proyecto;
-    if (!acc[areaId]) {
-      acc[areaId] = [];
-    }
-    acc[areaId].push(proyecto);
-    return acc;
-  }, {});
+  const agrupadosPorArea = proyectosData.proyectos.reduce(
+    (acc: any, proyecto: IProyecto) => {
+      const areaId = proyecto.areaId || 0;
+      if (!acc[areaId]) {
+        acc[areaId] = [];
+      }
+      acc[areaId].push(proyecto);
+      return acc;
+    },
+    {},
+  );
 
   return Object.entries(agrupadosPorArea).map(([areaId, proyectos]) => ({
     params: { id: parseInt(areaId) },
@@ -28,24 +31,26 @@ export async function getStaticPaths() {
 
 const { id } = Astro.params;
 const { proyectos } = Astro.props;
-const areaName = areaData.areas.find((area) => area.id == id);
+const areaName = areaData.areas.find((area: IAreaItem) => area.pk == id);
 ---
 
 <BaseLayout>
   <h3>{areaName.name}</h3>
   <ul>
     {
-      proyectos.map(({ distrito, ue, proyecto, area, ubicacion }) => (
-        <li>
-          <Proyecto
-            distrito={distrito}
-            ue={ue}
-            proyecto={proyecto}
-            area={area}
-            ubicacion={ubicacion}
-          />
-        </li>
-      ))
+      proyectos.map(
+        ({ distrito, ue, proyecto, area, ubicacion }: IProyecto) => (
+          <li>
+            <Proyecto
+              distrito={distrito}
+              ue={ue}
+              proyecto={proyecto}
+              area={area}
+              ubicacion={ubicacion}
+            />
+          </li>
+        ),
+      )
     }
   </ul>
 </BaseLayout>
